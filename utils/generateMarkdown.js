@@ -24,14 +24,16 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
 
-  ## Contribution
+  ## Contributing
   ${data.contribution}
 
   ## Tests
   ${data.tests}
 
   ## Questions
-  ${data.github}
+  Here is a link to my GitHub profile: <br/>
+  ${data.github} <br/>
+  If you have any questions, please reach me at: <br/>
   ${data.email}
 `;
 }
