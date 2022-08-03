@@ -1,35 +1,36 @@
 
-  # ewtevw
-  ![License](https://img.shields.io/badge/License-zLib_License-success)
+  # super amazing project
+
+  ![License](https://img.shields.io/badge/License-Apache_license_2.0-success)
 
   ## Description
-  tvrew
+  super amazing description
 
   ## Table of Contents
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [License](#License)
-  * [Contributing](#Contributing)
-  * [Tests](#Tests)
-  * [Questions](#Questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Installation
-  rew
+  some installation instructions
 
   ## Usage
-  tvrew
+  some usage information
 
   ## License
-  zLib License
+  Apache license 2.0
 
   ## Contributing
-  terc
+  some contribution guidelines
 
   ## Tests
-  vrwe
+  some test instructions
 
   ## Questions
   Here is a link to my GitHub profile: <br/>
-  frec@github.com <br/>
+  https://github.com/avni0000patel <br/>
   If you have any questions, please reach me at: <br/>
   avni0000patel@gmail.com
