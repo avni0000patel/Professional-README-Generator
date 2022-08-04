@@ -1,8 +1,9 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
+// Function that returns a license
 function renderLicenseBadge(license) {
     if (license === "Academic Free License v3.0") {
         return "![License](https://img.shields.io/badge/License-Academic_Free_License_v3.0-success)";
@@ -75,29 +76,34 @@ function renderLicenseBadge(license) {
     }
 };
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
     {
+        // Title
         type: "input",
         name: "title",
         message: "What is the title of your project?",
     },
     {
+        // Description
         type: "input",
         name: "description",
         message: "Please enter a description of your project.",
     },
     {
+        // Installation
         type: "input",
         name: "installation",
         message: "Please enter any installation instructions.",
     },
     {
+        // Usage
         type: "input",
         name: "usage",
         message: "Please enter any usage information.",
     },
     {
+        // License
         type: "list",
         name: "license",
         message: "Please select a choice for a license.",
@@ -139,35 +145,39 @@ const questions = [
         ],
     },
     {
+        // Contributing
         type: "input",
         name: "contribution",
         message: "Please enter any contribution guidelines.",
     },
     {
+        // Tests
         type: "input",
         name: "tests",
         message: "Please enter any test instructions.",
     },
     {
+        // Questions - Github
         type: "input",
         name: "github",
         message: "Please enter your GitHub username.",
     },
     {
+        // Questions - Email
         type: "input",
         name: "email",
         message: "Please enter your email address.",
     },
 ];
 
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data), function (error) {
         error ? console.log(error) : console.log("Successful!")
     })
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer
         .prompt(questions)
