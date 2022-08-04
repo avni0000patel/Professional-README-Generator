@@ -186,7 +186,7 @@ function init() {
             console.log(JSON.stringify(data, null, " "));
             data.renderLicenseBadge = renderLicenseBadge(data.license);
             console.log(data.renderLicenseBadge);
-            writeToFile("./README.md", data);
+            writeToFile("./example/readme.md", data);
         })
         .catch((error) => {
             console.log(error);
