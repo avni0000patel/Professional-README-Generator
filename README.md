@@ -4,4 +4,3 @@ In this project we have created an application using node that creates a profess
 https://github.com/avni0000patel
 ## Walkthrough Video Link
 https://drive.google.com/file/d/1d8ZwcE38XbEGxrDIzrGhAugMRxknEZzj/view?usp=sharing
-## Screenshot
