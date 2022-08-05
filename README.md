@@ -1,5 +1,5 @@
 # Professional README Generator
-In this project I have created an application using node that creates a professional README for a user's project based on the user's input. It’s important to have a high-quality README when creating a project on GitHub. This will make creating a README easier for the user and thus allowing the user to have more time to work on the project. 
+In this project I have created an application using node that creates a professional README for a user's project based on the user's input. It’s important to have a high-quality README when creating a project on GitHub. This generator will make creating a README easier for the user and thus allow the user to have more time to work on the project. 
 ## GitHub Link
 https://github.com/avni0000patel
 ## Walkthrough Video Link
