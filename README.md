@@ -18,6 +18,8 @@ Run the following:
 
 `npm install inquirer`
 
+`npm run test`
+
 `node index.js`
 
 ## Screenshot
