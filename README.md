@@ -10,11 +10,12 @@ Javascript - creates a dynamic and interactive experience for the user
 Node JS - back-end JavaScript runtime environment that runs on a JavaScript Engine
 
 Inquirer - a collection of common interactive command line user interfaces
-
 ## Instructions
 Run the following:
 
 `npm init`
+
+`npm i`
 
 `npm install inquirer`
 
